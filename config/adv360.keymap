@@ -29,9 +29,14 @@
             key-positions = <36 37>;
         };
 
-        ToDefault2 {
-            bindings = <&tog 0>;
-            key-positions = <35 38>;
+        TogLayer5 {
+            bindings = <&tog 5>;
+            key-positions = <37 38 5>;
+        };
+
+        TogLayer4 {
+            bindings = <&tog 4>;
+            key-positions = <37 38 4>;
         };
     };
 
