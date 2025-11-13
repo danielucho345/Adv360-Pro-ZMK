@@ -21,29 +21,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        ToDefault {
-            bindings = <&to 0>;
-            key-positions = <37 38 12>;
-        };
-
-        ToMacOmarchy {
-            bindings = <&to 4>;
-            key-positions = <37 38 4>;
-        };
-
-        ToLayer5 {
-            bindings = <&to 5>;
-            key-positions = <37 38 5>;
-        };
-
-        ToDefault {
-            bindings = <&to 0>;
-            key-positions = <37 36>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
